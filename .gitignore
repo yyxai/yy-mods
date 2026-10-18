@@ -1,1 +1,4 @@
 .worktrees/
+# Type declarations the engine writes beside each loaded mod
+**/.claude-plugin/types/
+.DS_Store
