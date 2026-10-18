@@ -1,11 +1,18 @@
 {
   "name": "yy-mods",
-  "owner": { "name": "yyxai" },
+  "owner": {
+    "name": "yyxai"
+  },
   "plugins": [
     {
       "name": "hello",
       "source": "./mods/hello",
       "description": "Example mod: shows a status line entry and a toast when a session starts."
+    },
+    {
+      "name": "where-am-i",
+      "source": "./mods/where-am-i",
+      "description": "A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one."
     }
   ]
 }

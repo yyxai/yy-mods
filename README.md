@@ -31,6 +31,7 @@ box, then Plugins, Add marketplace with `yyxai/yy-mods`, then Add plugin.
 | Mod | What it does |
 | --- | --- |
 | `hello` | Example mod: shows a status line entry and a toast when a session starts. Copy it to start a new mod. |
+| `where-am-i` | A live recap above the prompt: goal, doing now, waiting on you, next. `/where` gives a longer one. Imported from [hamzafer/claude-code-mods](https://github.com/hamzafer/claude-code-mods) (MIT). |
 
 ## Developing
 
