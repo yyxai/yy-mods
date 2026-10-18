@@ -56,3 +56,14 @@ To publish a mod for `/plugin install <mod> --marketplace yyxai/yy-mods`, add
 `.claude-plugin/marketplace.json` at the repository root and document the
 install line in the README. Remote: `https://github.com/yyxai/yy-mods.git`,
 default branch `main`.
+
+## Branching and pull requests
+
+Always work in a git worktree when preparing a pull request. Never create the
+PR branch in the main checkout. Use the `superpowers:using-git-worktrees`
+skill to create the worktree (one per branch, outside or ignored by this
+checkout), do the work and commits there, push from there, and open the PR
+with `gh pr create`. Remove the worktree once the PR is merged.
+
+Worktree directory: `.worktrees/` at the repository root (ignored by git), one
+subfolder per branch.
