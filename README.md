@@ -32,6 +32,7 @@ box, then Plugins, Add marketplace with `yyxai/yy-mods`, then Add plugin.
 | --- | --- |
 | `hello` | Example mod: shows a status line entry and a toast when a session starts. Copy it to start a new mod. |
 | `where-am-i` | A live recap above the prompt: goal, doing now, waiting on you, next. `/where` gives a longer one. Imported from [hamzafer/claude-code-mods](https://github.com/hamzafer/claude-code-mods) (MIT). |
+| `usage-meter` | Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost. Imported from [hamzafer/claude-code-mods](https://github.com/hamzafer/claude-code-mods) (MIT). |
 
 ## Developing
 
