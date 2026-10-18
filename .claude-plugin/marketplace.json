@@ -1,0 +1,11 @@
+{
+  "name": "yy-mods",
+  "owner": { "name": "yyxai" },
+  "plugins": [
+    {
+      "name": "hello",
+      "source": "./mods/hello",
+      "description": "Example mod: shows a status line entry and a toast when a session starts."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "hello",
+  "version": "0.1.0",
+  "author": { "name": "yyxai" },
+  "description": "Example mod: shows a status line entry and a toast when a session starts."
+}
